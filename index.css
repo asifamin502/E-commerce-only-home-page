@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+    }
+
+body{
+  font-family: "Itim", cursive;
+  
+}
+div.logo {
+  i.fa-solid.fa-bars {
+    display: none;
+
+  }
+
+  a {
+
+  }
+}
+.top, .left, .right, .logo, .options{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%; 
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+
+div.logo {
+  a {
+    font-size: 1.5rem;
+    color: black;
+  }
+}
+
+
+
+.top{
+  box-shadow: 0px 2px 10px 0px gray;
+  height: 18vh;
+  
+}
+
+
+
+ .navmenu{
+    margin-left: 40%;
+    margin-top: 4%; 
+} 
+ .navmenu>ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+div.navmenu {
+  ul {
+    li {
+      a {
+font-size: 1.5rem;
+color: black;
+      }
+    }
+  }
+}
+
+.options>ul{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20%;
+ 
+    
+}
+
+div.right {
+  div.options {
+    margin-top: 20%; 
+    ul {
+      
+      li {
+        a {
+          font-size: 1.5rem;
+          gap: 5%;
+          color: black;
+         
+
+          i.fa-solid.fa-magnifying-glass {
+
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+div.banner {
+  background: url(download.jpeg) no-repeat center;
+background-attachment: fixed;
+background-size: cover;
+width: 100%;
+height:60vh;
+  div.bannertxt {
+    marquee {
+      font-size: 2rem;
+      margin-top: 10%;
+      color: #2D00FF;
+
+    }
+  }
+}
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10%;
+  /* margin-left: 30%; */
+
+}
+
+div.card1 {
+  box-shadow: 2px 2px 4px 1px;
+  div.right {
+    img {
+
+    }
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    div.card1 {
+  div.right {
+    img {
+
+    }
+  }
+
+  div {
+    h3 {
+
+    }
+
+    h4 {
+
+    }
+  }
+}
+   
+    h3 {
+      font-size: 1.5rem;
+      text-decoration: underline;
+
+    }
+
+    h4 {
+
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+div.product_overview {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  h2 {
+    text-decoration: underline;
+    font-size: 2rem;
+
+
+  }
+
+  div.product_category {
+    display: flex;
+    gap: 2%;
+    
+    ul.li {
+      a {
+        font-size: 1.2rem;
+        color: #00000099;
+      }
+    }
+
+    div.p_search {
+      margin-left: 50%;
+      position: relative;
+      i.fa-brands.fa-searchengin {
+     position: absolute;
+     left: 2%;
+     top: 50%;
+
+      }
+
+      input {
+        height: 150%;
+width: 100%;
+border-radius: 10px;
+
+      }
+    }
+  }
+}
+
+
+div.productsssss {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  row-gap: 10px;
+  div.product {
+    img {
+
+    }
+
+    h4 {
+
+    }
+
+    p {
+
+    }
+  }
+}
+
+
+
+div.pagination {
+
+  ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+    li {
+      button {
+        height: 125%;
+        width: 125%;
+
+      }
+    }
+  }
+}
+
+
+
+div.footer {
+  margin-top: 2%;
+  background-color: black;
+  color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  input {
+    height: 2rem;
+    width: 15rem;
+    border-radius: 20px;
+
+  }
+  input::placeholder{
+    color: rgba(255, 68, 0, 0.692);
+    font-weight: 700;
+  }
+
+  button.btnscribe {
+    height: 3rem;
+    width: 5rem;
+    font-weight: 800;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    color: orangered;
+
+  }
+
+  p {
+    font-weight: 800;
+    font-size: 1.5rem;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

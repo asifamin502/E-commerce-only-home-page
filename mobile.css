@@ -1,0 +1,170 @@
+div.top {
+    height: 10%;
+    div.left {
+        position: relative;
+      
+      div.logo {
+
+        i.fa-solid.fa-bars {
+            display: block;
+            position: absolute;
+            left: 2%;
+            top: 15%;
+            
+  
+        }
+  
+        a {
+  
+        }
+      }
+  
+      div.navmenu {
+        display: none;
+        ul {
+          li {
+            a {
+  
+            }
+          }
+        }
+      }
+    }
+  
+    div.right {
+  
+      div.options {
+        ul {
+          li {
+            a {
+                font-size: 1rem;
+              i.fa-solid.fa-magnifying-glass {
+              
+  
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+  div.banner {
+    height:30vh;
+    div.bannertxt {
+        
+      marquee {
+        font-size: 1rem;
+  
+      }
+    }
+  }
+
+
+  .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    gap: 10%;
+   width: fit-content;
+  
+  }
+
+
+  div.product_overview {
+   
+    h2 {
+    
+      font-size: 1.5rem;
+  
+  
+    }
+  
+    div.product_category {
+      display: flex;
+      gap: 2%;
+      
+      ul.li {
+        a {
+          font-size: 1rem;
+          color: #00000099;
+        }
+      }
+  
+      div.p_search {
+        margin-left: 50%;
+        position: relative;
+       
+        i.fa-brands.fa-searchengin {
+       position: absolute;
+       left: 2%;
+       top: 30%;
+  
+        }
+  
+        input {
+   display: none;
+  
+        }
+      }
+    }
+  }
+
+  div.productsssss {
+   
+    
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    column-gap: 20px;
+   
+    div.product {
+      img {
+        width: 100%;
+      }
+  
+      h4 {
+  
+      }
+  
+      p {
+  
+      }
+    }
+  }
+  
+
+  div.footer {
+  
+    input {
+      height: 1.7rem;
+      width: 9rem;
+      border-radius: 20px;
+  
+    }
+    input::placeholder{
+     
+      font-weight: 500;
+      font-size: 0.6rem;
+    }
+  
+    button.btnscribe {
+      height: 2rem;
+      width: 5rem;
+      font-weight: 500;
+      border-radius: 20px;
+      background-color: cornflowerblue;
+      color: orangered;
+  
+    }
+  
+    p {
+      font-weight: 800;
+      font-size: 0.7rem;
+  
+    }
+  } 
+
+
+ 
